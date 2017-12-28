@@ -1,3 +1,113 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+  
+  .navlogo {
+    height:47px;
+    width:100px;
+}
+
+.nav-item {
+    padding-left: 40px;
+}
+
+.container-fluid {
+  width:100%;
+  z-index:1000;
+  background-color:red;
+  background-size:cover;
+}
+.jumbotron {
+  width:100%;
+  margin:0;
+  background-image:url("img/indeximg.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  background-size:cover;
+}
+
+.body {
+  background-color:#8AC164;
+  margin:0;
+  padding:0;
+}
+
+.display3 {
+  color:white;
+}
+
+h1 {
+  color:#006838;
+  font-size:2em;
+}
+
+.btn  {
+  background-color:#407437;
+  border:none;
+}
+
+.btn:hover {
+  background-color:#335e2b;
+  border:none;
+}
+p {
+  color:white;
+}
+.row1 {
+  margin-top:60px;
+}
+
+.row2 {
+  margin-top:60px;
+  background-color:#8AC164;
+}
+
+.indexcontainer1 {
+  width:100%;
+  height:100%;
+  padding:30px;
+  margin-top:20px;
+}
+
+#index1img {
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  display: block;
+}
+
+.indexcontainer2 {
+  height:100%;
+  width:100%;
+  padding:30px;
+  margin-bottom:100px;
+  margin-top:20px;
+}
+
+h2 {
+  color:#A5D178;
+  font-size: 12pt;
+}
+.footer-left {
+  color:white;
+  font-size:9pt;
+  margin-left:30px;
+}
+
+.footer {
+  bottom:0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding-left:30px;
+}
+
+.social {
+  width:300%;
+  margin-right:30px;
+}

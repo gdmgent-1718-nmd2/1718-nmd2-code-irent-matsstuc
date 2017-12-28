@@ -6,34 +6,44 @@ permalink: contact
 title: Contact
 ---
 
-<div class="col-12 col-md-4">
-    <ul>
-        <li>
-            <h2>Adres</h2>
-            <p>Industrieweg 232<br>
-                9030 Gent-Mariakerke, Oost-Vlaanderen</p>
-            <h2>Contact</h2>
-            <p>☎&nbsp;09 234 86 00</p></li>
-    </ul>
+<body id="bodycontact">
+<div class="jumbotron jumbotroncontact">
+  <h3 class="display-3">Contact</h3>
+    <p class="lead">Questions about Ant-i?</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-sm" href="rent.html" role="button">Rent our service</a>
+    </p>
 </div>
-
-<div class="col-12 col-md-8">
+<container>
+    <div class="row row1">
+        <div class="col-sm-3"><img id="index1img" src="img/contactimg.png"></div>
+        <div class="contactcontainer col-sm-9">
+          <h1>You would like to contact us?</h1>
+          <p>Any and all questions are welcome and we will do our best
+              to get back to you as soon as possible!</p>
         <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input">
-                    Check me out
-                  </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>              
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+          <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+        </form></br>
+        <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="comment">Message:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+        <button type="button" class="btn btn-success">Send</button>
+      </div>
+    </div>
 </div>
+</container>
+</body>

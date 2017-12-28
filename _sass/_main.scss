@@ -27,12 +27,51 @@
   background-size:cover;
 }
 
-.body {
-  background-color:#8AC164;
+.jumbotronrent {
+  width:100%;
   margin:0;
-  padding:0;
+  background-image:url("img/rentimg.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  background-size:cover;
 }
 
+.jumbotroncontact {
+  width:100%;
+  margin:0;
+  background-image:url("img/contactimg.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  background-size:cover;
+}
+
+.jumbotronabout {
+  width:100%;
+  margin:0;
+  background-image:url("img/aboutimg.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  background-size:cover;
+}
+
+body {
+  background-color:#8AC164;
+}
+
+#bodyrent {
+  background-color:#5B4038;
+}
+
+#bodycontact {
+  background-color:#C3CE43;
+}
+
+#bodyabout {
+  background-color:#448F42;
+}
 .display3 {
   color:white;
 }
@@ -63,11 +102,29 @@ p {
   background-color:#8AC164;
 }
 
+.row3 {
+  margin-top:60px;
+  margin-bottom:220px;
+}
+
 .indexcontainer1 {
   width:100%;
   height:100%;
   padding:30px;
   margin-top:20px;
+}
+
+.rentcontainer {
+  height:100%;
+  padding:30px;
+  margin-top:20px;
+}
+
+.contactcontainer {
+  height:100%;
+  padding:30px;
+  margin-top:20px;
+  margin-bottom:200px;
 }
 
 #index1img {
@@ -110,4 +167,11 @@ h2 {
 .social {
   width:300%;
   margin-right:30px;
+}
+
+
+
+.form-control:focus {
+  border-color: #A5D178;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #A5D178;
 }
